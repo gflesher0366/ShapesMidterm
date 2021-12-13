@@ -45,7 +45,7 @@ public class Canvas {
     public static Canvas getCanvas() {
         if (canvasSingleton == null) {
             boolean headless = java.awt.GraphicsEnvironment.isHeadless();
-            canvasSingleton = new Canvas("Picture Demo", 800, 600, Color.white, headless);
+            canvasSingleton = new Canvas("Picture Demo", 600, 600, Color.cyan, headless);
         }
         canvasSingleton.setVisible(true);
         return canvasSingleton;

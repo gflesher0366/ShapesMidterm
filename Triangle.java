@@ -22,10 +22,10 @@ public class Triangle
      */
     public Triangle()
     {
-        height = 60;
-        width = 70;
-        xPosition = 210;
-        yPosition = 140;
+        height = 70;
+        width = 90;
+        xPosition = 10;
+        yPosition = 580;
         color = Canvas.getColor("green");
         isVisible = false;
     }
@@ -59,7 +59,7 @@ public class Triangle
      */
     public void moveRight()
     {
-        moveHorizontal(20);
+        moveHorizontal(25);
     }
 
     /**

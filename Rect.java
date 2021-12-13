@@ -22,10 +22,10 @@ public class Rect
      */
     public Rect()
     {
-        xSize = 60;
-        ySize = 60;
-        xPosition = 310;
-        yPosition = 120;
+        xSize = 20;
+        ySize = 5;
+        xPosition = 0;
+        yPosition = 0;
         color = Canvas.getColor("red");
         isVisible = false;
     }
